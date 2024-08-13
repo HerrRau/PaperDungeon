@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Menu -->
+    <string name="app_name">Paper Dungeon</string>
+    <string name="start_button_start">Einzelspiel</string>
+    <string name="start_button_server">Server  (BETA)</string>
+    <string name="start_button_characters">Charaktere</string>
+    <string name="start_button_settings">Einstellungen</string>
+    <string name="start_button_rules">Regeln</string>
+    <string name="start_button_information">Information</string>
+    <string name="game_button_toGame">ZUM SPIEL</string>
+    <string name="game_button_exit">SPIEL BEENDEN</string>
+    <string name="server_button_start">Starte Server</string>
+    <string name="server_button_stop">Stoppe Server</string>
+    <string name="server_button_connect">Verbinde mit Server</string>
+    <string name="server_button_check">Überprüfe Server-Status</string>
+    <string name="server_players">Mitspielende</string>
+    <string name="activities_button_back">Zurück</string>
+    <string name="characters_create_new">Neue Figur</string>
+    <string name="characters_creation_create">Figur erzeugen</string>
+    <string name="characters_creation_keep">Figur behalten</string>
+    <string name="characters_all_view">Ansehen</string>
+    <string name="characters_all_choose">Wählen</string>
+    <string name="characters_all_delete">Löschen</string>
+    <!-- Actions -->
+    <string name="action_flee">Fliehen</string>
+    <string name="action_fight">Kämpfen</string>
+    <string name="action_dig">Graben</string>
+    <string name="action_search">Suchen</string>
+    <string name="action_xxx">Erreichbar?</string>
+    <!-- Items -->
+    <string name="item_potion">Trank</string>
+    <string name="item_clairvoyance">Karte</string>
+    <string name="item_ghost_walk">Sprung</string>
+    <string name="item_experience">Erfahrung, unbezahlbare</string>
+    <string name="item_invisibility">Unsichtbarkeit</string>
+    <string name="item_opener">Öffner</string>
+    <string name="item_trap">Falle</string>
+    <string name="item_lessons">Lektionen, gelernte</string>
+    <string name="item_gold">Gold</string>
+    <string name="item_potion_description">Ganz einfach: Du erhältst Stärke.</string>
+    <string name="item_clairvoyance_description">Ah! Das ist sehr wertvoll und zeigt dir den Aufbau des Gewölbes.</string>
+    <string name="item_ghost_walk_description">Ah! Hiermit gehst du an einen anderen Ort, so wie die Geister gehen.</string>
+    <string name="item_opener_description">Das öffnet Türen - für eine kleine Weile.</string>
+    <string name="item_trap_description">Lass die Falle irgendwo fallen und nur du wirst sie sehen. Lauf nicht hinein!.</string>
+    <!-- Placeables -->
+    <string name="placeable_opponent">Gegner</string>
+    <string name="placeable_stairs">Treppe</string>
+    <string name="placeable_up">Nach oben</string>
+    <string name="placeable_down">Nach unten</string>
+    <string name="placeable_chest">Kiste</string>
+    <string name="placeable_trap">Falle</string>
+    <string name="placeable_sage">Freundliche Hilfe</string>
+    <!-- Attributes -->
+    <string name="attribute_name">Name</string>
+    <string name="attribute_strength">Stärke</string>
+    <string name="attribute_agility">Geschick</string>
+    <string name="attribute_max_strength">Max Stärke</string>
+    <string name="attribute_max_depth">Max Tiefe</string>
+    <string name="attribute_solo_excursions">Solo-Ausflüge</string>
+    <!-- Beschreibungen -->
+    <string name="description_sage">Du erhältst das Angebot, wieder dorthin zu steigen, wo du beim letzten Mal herkamst.</string>
+    <!-- Kampf -->
+    <string name="fight_round_won">Du gewinnst diese Runde!</string>
+    <string name="fight_round_lost">Du verlierst diese Runde.</string>
+    <string name="fight_battle_won">Du hast diesen Kampf gewonnen!</string>
+    <string name="fight_dead">Du bist tot.</string>
+    <string name="fight_flee_successful">Es gelingt dir zu fliehen, mit geringen Wunden.</string>
+    <string name="fight_flee_unsuccessful">Es gelingt dir nicht zu fliehen, mit geringen Wunden.</string>
+    <!-- Footnotes -->
+    <string name="footnote_depth">Tiefe</string>
+    <string name="footnote_timer">Zeit</string>
+    <!-- Messages -->
+    <string name="message_leaving">Möchtest du wirklich das Spiel verlassen?</string>
+    <string name="message_leaving_dangerously">Möchtest du wirklich das Spiel verlassen? Die Figur gilt dann als nicht mehr zurückgekehrt aus den Tiefen!</string>
+    <string name="message_leaving_yes">Ja</string>
+    <string name="message_leaving_no">Nein</string>
+    <!-- Consequences-->
+    <string name="consequence_trap">Oh nein! Eine Falle! Du verlierst Stärke.</string>
+    <string name="consequence_trap_death">Das ist schade...  eine Falle hat dich getötet.</string>
+    <string name="consequence_chest">Du fügst den Inhalt der Kiste deinem Rucksack hinzu.</string>
+    <!-- Levels -->
+    <string name="level0"><![CDATA[<b>Willkommen, %1$s!</b> Der Tempel des Phaidros ist schon lange verlassen. Aber die Jugend des Dorfes sucht ihn ab und zu noch auf. Es ist eine Art Mutprobe. Manche sagen auch, dass es da noch viel zu entdecken gibt.]]></string>
+    <string name="level0_return">Es ist schon eine Weile her... Du hast die meisten deiner Schätze deiner Familie gegeben, wie es sich gehört, und beginnst noch einmal.</string>
+    <string name="level1">Die unteren Bereiche des Tempels sind WIRKLICH noch nicht erforscht. Ob es wohl noch weitere Treppen nach unten gibt?</string>
+    <string name="level2">Manchmal findet man Kisten. Die meisten davon kann man gefahrlos mit einem Doppeltap öffnen. Sie enthalten oft nützliche magische Tränke, die du verwenden kannst.</string>
+    <string name="level3">Manchmal muss man sich beeilen. Die Zeit läuft bereits!</string>
+    <string name="level4">Manchmal ist es dunkel. Aber man findet sich schon irgendwie zurecht.</string>
+    <string name="level5">Manche Korridore bewegen sich...</string>
+    <string name="level6">Unten lauern Gestalten, die dich aufhalten wollen.</string>
+    <string name="level7">Ein Vorgeschmack auf Kommendes.</string>
+    <string name="level8">Der Weg zurück nach oben ist sehr mühsam. Glücklicherweise findet man immer wieder Treppen, die über verborgene Gänge direkt zurück an die Oberfläche führen. Wenn du einen bestimmten Weg gefunden hast, kannst du ihn später als Abkürzung benutzen.</string>
+    <string name="level9">Ab jetzt bist du auf dich allein gestellt. Du weißt sicher noch nicht alles, was du wissen musst, aber alles, was im Dorf bekannt ist. Vielleicht willst du das nächste Mal ja auch versuchen, zu zweit oder dritt oder viert hinabzusteigen?</string>
+    <string name="level_default">Du bist sehr mutig, dass du dich noch weiter nach unten wagst.</string>
+    <!-- Information -->
+    <string name="information">In diesem Spiel kannst du tiefe Gewölbe erkunden.
+        \n\nNach ein paar Tutorial-Leveln kannst du so tief hinunter, wie du willst,
+        alleine oder mit bis zu drei weiteren. Du kannst Schätze und magische Gegenstände finde,
+        musst Fallen und Monstern ausweichen.
+        \n\nWenn du mit anderen zusammenspielen möchtest, müsst ihr im gleichen Netzwerk sein. Dann startet einer den Server
+    für eine bestimmte Anzahl an Leuten (1-4), alle anderen müssen die IP-Adresse eingeben und sich dann mit dem Server verbinden.
+        Das Spiel beginnt, sobald alle angemeldet sind. Nach unten oder oben geht nur, wenn alle das wollen.
+    Mann </string>
+    <string name="rules">Regeln</string>
+    <string name="settings_tiles">Wähle einen Gewölbe-Stil:</string>
+    <string name="settings_standard_rows">Standard # \nan Zeilen:</string>
+    <string name="settings_standard_cols">Standard # \nan Spalten:</string>
+    <string name="settings_strict_mode">Strenger Modus</string>
+</resources>

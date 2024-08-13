@@ -1,0 +1,106 @@
+<resources>
+    <!-- Menu -->
+    <string name="app_name">Paper Dungeon</string>
+    <string name="start_button_start">Single Game</string>
+    <string name="start_button_server">Server (BETA)</string>
+    <string name="start_button_characters">Characters</string>
+    <string name="start_button_settings">Settings</string>
+    <string name="start_button_rules">Rules and Tips</string>
+    <string name="start_button_information">Information</string>
+    <string name="game_button_toGame">TO GAME</string>
+    <string name="game_button_exit">EXIT GAME</string>
+    <string name="server_button_start">Start Server</string>
+    <string name="server_button_stop">Stop Server</string>
+    <string name="server_button_connect">Connect to Server</string>
+    <string name="server_button_check">Check Server Status</string>
+    <string name="server_players">Players</string>
+    <string name="activities_button_back">Back</string>
+    <string name="characters_create_new">Create New</string>
+    <string name="characters_creation_create">Create Character</string>
+    <string name="characters_creation_keep">Keep Character</string>
+    <string name="characters_all_view">View</string>
+    <string name="characters_all_choose">Choose</string>
+    <string name="characters_all_delete">Delete</string>
+    <!-- Actions -->
+    <string name="action_flee">Flee</string>
+    <string name="action_fight">Fight</string>
+    <string name="action_dig">Dig</string>
+    <string name="action_search">Search</string>
+    <string name="action_xxx">Reachable</string>
+    <!-- Items -->
+    <string name="item_potion">Potion</string>
+    <string name="item_clairvoyance">Map</string>
+    <string name="item_ghost_walk">Jump</string>
+    <string name="item_experience">Experience, Invaluable</string>
+    <string name="item_invisibility">Invisibility</string>
+    <string name="item_opener">Opener</string>
+    <string name="item_trap">Trap</string>
+    <string name="item_lessons">Lessons Learned</string>
+    <string name="item_gold">Gold</string>
+    <string name="item_potion_description">Simple, it gives you strength.</string>
+    <string name="item_clairvoyance_description">Ah! A valuable thing, this. It will show you the way of the dungeon.</string>
+    <string name="item_ghost_walk_description">Ah! This will make you go elsewhere, like a ghost.</string>
+    <string name="item_opener_description">This potion opens doors - for a while.</string>
+    <string name="item_trap_description">You can drop this anywhere, and only you will be able to see it. Don\'t walk into it.</string>
+    <!-- Placeables -->
+    <string name="placeable_opponent">Opponent</string>
+    <string name="placeable_stairs">Stairs</string>
+    <string name="placeable_up">Up</string>
+    <string name="placeable_down">Down</string>
+    <string name="placeable_chest">Chest</string>
+    <string name="placeable_trap">Trap</string>
+    <string name="placeable_sage">Sage</string>
+    <!-- Attributes -->
+    <string name="attribute_name">Name</string>
+    <string name="attribute_strength">Strength</string>
+    <string name="attribute_agility">Agility</string>
+    <string name="attribute_max_strength">Max Strength</string>
+    <string name="attribute_max_depth">Max Depth</string>
+    <string name="attribute_solo_excursions">Solo Excursions</string>
+    <!-- Descriptions -->
+    <string name="description_sage">A sage offers you a shortcut back to where you left off.</string>
+    <!-- Fighting -->
+    <string name="fight_round_won">You find this round!</string>
+    <string name="fight_round_lost">You lose this round.</string>
+    <string name="fight_battle_won">You have won this fight!</string>
+    <string name="fight_dead">You are dead.</string>
+    <string name="fight_flee_successful">You manage to flee, getting wounded.</string>
+    <string name="fight_flee_unsuccessful">You cannot disengange from your enemy, getting wounded.</string>
+    <!-- Footnotes -->
+    <string name="footnote_depth">Depth</string>
+    <string name="footnote_timer">Time</string>
+    <!-- Messages -->
+    <string name="message_leaving">Do you really want to leave the game?</string>
+    <string name="message_leaving_dangerously">Do you really want to leave the game? Your character will be considered lost in time or space, or dead!</string>
+    <string name="message_leaving_yes">Yes</string>
+    <string name="message_leaving_no">No</string>
+    <!-- Consequences-->
+    <string name="consequence_trap">Oh no! A trap! You lose strength.</string>
+    <string name="consequence_trap_death">Sorry...  a trap killed you.</string>
+    <string name="consequence_chest">You put the objects in the chest into your backpack.</string>
+    <!-- Levels -->
+    <string name="level0"><![CDATA[<b>Welcome, %1$s!</b> The temple of Phaidros is a ruin, not used for anything much. But the young of the village go there, now and then, on a dare, as it were. Some they there are things to be discovered there.]]></string>
+    <string name="level0_return">So, it has been a while... You gave most of your things to your family, as is proper, and start anew.</string>
+    <string name="level1">The lower parts of the temple are REALLY not mapped. Maybe there are more steps leading downwards?</string>
+    <string name="level2">Sometimes you find chests. Most of them can be opened safely with a double tap. Often they contain useful magic items.</string>
+    <string name="level3">Sometimes you have to hurry. Time is already running!</string>
+    <string name="level4">Sometimes it is dark. But you\'ll manage, I\'m sure..</string>
+    <string name="level5">Sometimes the corridors move...</string>
+    <string name="level6">There a certain elements down there that want to attack you.</string>
+    <string name="level7">A taste of things to come.</string>
+    <string name="level8">The way back is very arduous. Fortunately, every now and then there are steps leading directly to the surface. Once you have found such a way, you can always use it as a shortcut on your next way down.</string>
+    <string name="level9">From now on you are on your own. You probably don\'t know everything you need to know, but everything that is known in the village.
+        Maybe you will want to go down in a group next time, too?</string>
+    <string name="level_default">You are very brave to go deeper.</string>
+    <!-- Information -->
+    <string name="information">This game is a dungeon simulator. \n\nAfter some tutorial levels, you can go as deep as you want, alone or with up to three fellow travellers. You can pick up treasures and magic items, must avoid traps and monsters.
+            \n\nIf you want to play together with others, you must be in the same local network. One of you starts the server for a number of players (1-4),
+        the players enter the IP address and connect to the server. The game starts when everybody has connected. Going down or up is only possible
+        when everyone agrees to it.</string>
+    <string name="rules">Rules</string>
+    <string name="settings_tiles">Choose dungeon style:</string>
+    <string name="settings_standard_rows">Standard # \nof rows:</string>
+    <string name="settings_standard_cols">Standard # \nof columns:</string>
+    <string name="settings_strict_mode">Use strict mode</string>
+
+</resources>

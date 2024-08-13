@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutConstraintMaster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F31717"
+    tools:context=".ActivityGame">
+
+
+    <include
+        android:id="@+id/popupIncluded"
+        layout="@layout/layout_popup" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="256dp"
+        android:layout_height="241dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutConstraintTiles"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#5C595A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="#CDDC39"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="719dp">
+
+        <TextView
+            android:id="@+id/textViewBottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewTimer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#009688"
+            android:gravity="right"
+            android:text="TextView" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

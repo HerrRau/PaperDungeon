@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainStyle1" parent="TextAppearance.AppCompat">
+    </style>
+    <style name="MainStyle2" parent="TextAppearance.AppCompat">
+    </style>
+</resources>
