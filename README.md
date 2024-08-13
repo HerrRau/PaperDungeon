@@ -4,8 +4,6 @@
 
 Ein Spiel, das mal so als Rumpf hier steht, um es später - vielleicht auch mal in der Schule - zu erweitern.
 
-![Screenshot_20240729-213620](https://github.com/user-attachments/assets/138f320e-3801-428f-90e8-f9e88540028e)
-
 # Ideen für Spiel-Design
 
 * Exit wird random gelegt, evtl sogar angezeigt, muss erreicht werden, notfalls mit Opener, wenn Weg dorthin verbaut
@@ -24,5 +22,7 @@ Ein Spiel, das mal so als Rumpf hier steht, um es später - vielleicht auch mal 
 # Hintergrundgeschichte
 
 * Sind angehörige eines bösen kultes, die runter wollen?
+
+![Screenshot_20240729-213620](https://github.com/user-attachments/assets/138f320e-3801-428f-90e8-f9e88540028e)
 
 
